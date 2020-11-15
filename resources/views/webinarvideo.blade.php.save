@@ -1,0 +1,40 @@
+@extends('layouts.webinarvideo')
+@section('content')
+
+
+<div class="container-fluid blog-content">
+
+<div class="row">
+<div class='col-md-2 col-sm-2 ad'>
+</div>
+<div class='col-md-6 col-sm-8'>
+<img src="https://i.imgur.com/4j7UTjO.png"/>
+</div>
+<div class='col-md-3 col-sm-2 hidden-xs ad'>
+</div>
+
+
+</div>
+
+
+
+  <div class="row">
+    <div class="col-md-2 hidden-md-down">
+	<img style="width:100%" src="https://i.imgur.com/dBBBHk4.jpg"/>
+    </div> 
+    <div class="col-md-8 my-5">
+      <h1 class="text-center py-3">{{ settings('live_title') }}</h1>
+        <div class="embed-responsive embed-responsive-16by9">
+         <iframe width="1440" height="731" src="https://www.youtube.com/embed/I7pcTqnNgrA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+         </div>
+<p style="margin-top:20px;">
+<a style="background-color:#5cb85c;border-radius: 6px;padding:5px 7px;color:white;font-size:27px;margin-left:35%;"  target="_blank"  href="https://samedi.program.tn/tunisie/index1.php"><span>Posez vos questions</span></a>
+</p>
+
+</div>
+    <div class="col-md-2 hidden-md-down">
+<img style="width:100%"  src="https://i.imgur.com/dBBBHk4.jpg"/>
+    </div>
+  </div>
+</div>
+@endsection   
